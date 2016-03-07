@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Black">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="actionIconCancel">
+           	@drawable/ic_action_cancel
+        </item>
+        <item name="actionIconDone">
+            @drawable/ic_action_done
+        </item>
+       <item name="actionIconEdit">
+           @drawable/ic_action_edit
+       </item>
+       <item name="actionIconUserAdd">
+           @drawable/ic_action_user_add
+       </item>
+  
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="styleName">
+        <item name="android:backgroundTint" tools:targetApi="21">@color/abc_search_url_text_normal</item>
+    </style>
+</resources>

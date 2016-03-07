@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jana.karim.hw2.EditActivity" >
+
+    
+    
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:title="@string/done"
+        android:icon="@drawable/ic_action_edit"
+        app:showAsAction="ifRoom"/>
+    
+    
+</menu>
